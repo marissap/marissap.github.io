@@ -3,18 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "description": "website",
-  "author": "marissap",
+  "author": "Marissa Phul",
+  "bugs": {
+    "url": "https://github.com/marissap/marissap.github.io"
+  },
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "DISABLE_ESLINT_PLUGIN=true gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b deploy"
   },
   "dependencies": {
+    "@fontsource/archivo": "^5.0.18",
+    "@fontsource/dm-serif-display": "^5.0.20",
     "@mdx-js/react": "^3.0.1",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.13.1",
@@ -22,9 +30,17 @@
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-remark-embed-spotify": "^2.1.1",
+    "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typography": "^0.16.24",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
