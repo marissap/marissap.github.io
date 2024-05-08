@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(40),
-        padding: `7.5vh ${rhythm(1 / 4)}`,
+        padding: `40px ${rhythm(1 / 4)}`,
       }}
     >
       <main>{children}</main>
