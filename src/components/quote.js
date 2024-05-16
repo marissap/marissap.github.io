@@ -1,13 +1,12 @@
 import React, { useEffect } from "react"
-import { Star } from "phosphor-react";
 
 function scrollingText() {
-    let section = document.getElementById("scrolling-section");
-    let content = section.querySelector("#scrolling-text");
+    let section = document.querySelector("#outer");
+    let content = section.querySelector("#content");
     
     repeatContent(content, section.offsetWidth);
     
-    let el = section.querySelector("#scrolling-div");
+    let el = section.querySelector("#loop");
     el.innerHTML = el.innerHTML + el.innerHTML;
     
     function repeatContent(el, till) {
@@ -28,10 +27,10 @@ const Quote = () => {
     }, []);
 
     return (
-        <div id="scrolling-section">
+        <div id="outer">
             <div>
-                <div id="scrolling-div">
-                    <div id="scrolling-text">"I want to build something that makes people fall in love." - Cameron Howe, Halt and Catch Fire<span>~</span></div>
+                <div id="loop">
+                    <div id="content">I want to build something that makes people fall in love." - Cameron Howe, Halt and Catch Fire<span>&#10037;</span></div>
                 </div>
             </div>
         </div>
