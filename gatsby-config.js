@@ -53,6 +53,10 @@ module.exports = {
             name: `Jura`,
             file: `https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap`,
           },
+          {
+            name: `News Cycle`,
+            file: `https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap`,
+          },
         ],
       },
     },

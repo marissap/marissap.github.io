@@ -5,9 +5,9 @@
 body {
     --bg: #fff;
     --navLink: #000;
-    --accent: #0fb58e;
+    --accent: #ec88ed;
     --text: #000;
-    --link: #8B6DF6;
+    --link: #1800F7;
     
     color: var(--text);
 }
@@ -106,35 +106,34 @@ hr {
 }
 
 .summary {
-    font-size: 24px;
-    font-family: 'Archivo', sans-serif;
+    font-size: 27px;
+    font-family: 'DM Serif Display', serif;
     line-height: 1.5em;
 }
 
 .about {
-    line-height: 2em;
     margin-bottom: 0;
-    font-family: 'Archivo', sans-serif;
-    font-size: 18px;  
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;  
 }
 
-.about ::marker {
+/* .about ::marker {
     content: "↬";
-}
+} */
 
 .about li {
     padding-left: 2%;
 }
 
 .about a {
-    border-bottom: 2px var(--accent) dashed;
+    /* border-bottom: 2px var(--accent) dashed; */
     display: inline-block;
     line-height: 0.85;
 }
 
-.about a:hover {
+/* .about a:hover {
     border-bottom: 2px var(--link) dashed;
-}
+} */
 
 footer {
     position: absolute;
@@ -149,13 +148,6 @@ footer {
     -ms-animation: fadein 3s; 
     -o-animation: fadein 3s;
     animation: fadein 3s;
-}
-
-.name-title {
-    color: #8B6DF6;
-    border-bottom: 2px var(--accent) dashed;
-    display: inline-block;
-    line-height: 0.85;
 }
 
 @keyframes fadein {
@@ -181,105 +173,6 @@ footer {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-@media only screen and (max-width: 896px) and (min-width: 415px) {
-    .d {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        padding-bottom: 30%;
-    }
-    .title {
-        font-size: 88px;
-        transform: rotate(-90deg);
-    }
-    .about {
-        font-size: 16px;
-    }
-    #outer {
-        padding-bottom: 8%;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    .container {
-        margin: 0;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        grid-template-columns: 100%;
-        height: 100vh;
-    }
-
-    .b, .d, .e {
-        all:unset;
-    }
-
-    .d {
-        order: 1;             
-    }
-
-    .b {
-        order: 2;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .e {
-        order: 3;
-    }
-
-    .title {
-        font-size: 80px;
-        margin-top: 0;
-    }
-    #outer {
-        padding-bottom: 8%;
-    }
-}
-
-.progress {
-    display: inline-block;
-    background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%238B6DF6' stroke-width='12'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-    background-repeat: repeat-x;
-    background-position: bottom left;
-    background-size: 0.5em auto;
-}
-
-.creativity {
-    display: inline-block;
-    background-image: url('data:image/svg+xml,%3Csvg   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 6 4" width="12" height="10"%3E%3Cpath fill="none" stroke="%23f66ddb" stroke-width="2" stroke-linecap="square" d="M0 1 A 2 2 0 0 1 3 1 M3 1 A 2 2 0 0 0 6 1"/%3E%3C/svg%3E');
-    background-repeat: repeat-x;
-    background-position: bottom left;
-    background-size: 0.3em auto;
-    animation: scrollBackground linear infinite 1s;
-}
-
-.world {
-    position: relative;    
-}
-
-.world:after {
-    content: '';
-    position: absolute;
-    top: 95%;
-    width: 150%;
-    aspect-ratio: 3 / 1;
-    left: 50%;
-    transform: translate(-50%, 0);
-    border-radius: 50%;
-    border: 3px solid #19daad;
-    clip-path: polygon(0 0, 50% 50%, 100% 0);
-    
-}
-
-@keyframes scrollBackground {
-    from {
-      background-position: 0 100%;
-    }
-    to {
-      background-position: 0.3em 100%;
-    }
 }
 
 #outer {
@@ -313,4 +206,164 @@ footer {
     100% {
         margin-left: -50%;
     }
+}
+
+@media only screen and (max-width: 896px) and (min-width: 415px) {
+    .d {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 30%;
+    }
+    .title {
+        font-size: 88px;
+        transform: rotate(-90deg);
+    }
+    .about {
+        font-size: 16px;
+    }
+    #content {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container {
+        margin: 0;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 100%;
+        height: 100vh;
+    }
+
+    .b, .d, .e {
+        all:unset;
+    }
+
+    .d {
+        order: 1;             
+    }
+
+    .b {
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .e {
+        order: 3;
+        padding-bottom: 10%;
+    }
+
+    .title {
+        font-size: 80px;
+        margin-top: 0;
+    }
+    #outer {
+        padding-top: 2px;
+        margin-bottom: 8%;
+    }
+    #content {
+        font-size: 12px;
+    }    
+}
+
+.progress {
+    display: inline-block;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%231800F7' stroke-width='12'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    background-size: 0.5em auto;
+}
+
+.creativity {
+    display: inline-block;
+    background-image: url('data:image/svg+xml,%3Csvg   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 6 4" width="12" height="10"%3E%3Cpath fill="none" stroke="%231800F7" stroke-width="2" stroke-linecap="square" d="M0 1 A 2 2 0 0 1 3 1 M3 1 A 2 2 0 0 0 6 1"/%3E%3C/svg%3E');
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    background-size: 0.3em auto;
+    animation: scrollBackground linear infinite 1s;
+}
+
+.world {
+    position: relative;    
+}
+
+.world:after {
+    content: '';
+    position: absolute;
+    top: 95%;
+    width: 150%;
+    aspect-ratio: 3 / 1;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    border: 3px solid #1800F7;
+    clip-path: polygon(0 0, 50% 50%, 100% 0);
+    
+}
+
+@keyframes scrollBackground {
+    from {
+      background-position: 0 100%;
+    }
+    to {
+      background-position: 0.3em 100%;
+    }
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }

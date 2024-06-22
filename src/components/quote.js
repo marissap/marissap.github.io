@@ -30,7 +30,12 @@ const Quote = () => {
         <div id="outer">
             <div>
                 <div id="loop">
-                    <div id="content">I want to build something that makes people fall in love." - Cameron Howe, Halt and Catch Fire<span>&#10037;</span></div>
+                    <div id="content"
+                    style={{
+                        fontFamily: 'News Cycle',
+                        fontSize: `16px`,
+                      }}
+                    >I want to build something that makes people fall in love." - Cameron Howe, Halt and Catch Fire<span>&#10037;</span></div>
                 </div>
             </div>
         </div>

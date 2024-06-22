@@ -4,6 +4,13 @@ import { rhythm } from "../utils/typography"
 const Layout = ({ children }) => {
 
   return (
+    // <div className="wrapper">
+    //       <div class="sidebar">
+    //       <a class="active" href="#home">Home</a>
+    //       <a href="#news">News</a>
+    //       <a href="#contact">Contact</a>
+    //       <a href="#about">About</a>
+    //     </div>    
     <div
       className="main-layout"
       style={{
@@ -15,6 +22,7 @@ const Layout = ({ children }) => {
     >
       <main>{children}</main>
     </div>
+  // </div>
   )
 }
 
