@@ -31,10 +31,10 @@ const Quote = () => {
             <div>
                 <div id="loop">
                     <div id="content"
-                    style={{
-                        fontFamily: 'News Cycle',
-                        fontSize: `16px`,
-                      }}
+                    // style={{
+                    //     fontFamily: 'Catamaran',
+                    //     fontSize: `16px`,
+                    //   }}
                     >I want to build something that makes people fall in love." - Cameron Howe, Halt and Catch Fire<span>&#10037;</span></div>
                 </div>
             </div>

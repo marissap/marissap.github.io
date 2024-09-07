@@ -103,17 +103,23 @@ hr {
 .title {    
     font-size: 120px;
     margin-bottom: 0;
+    /* font-family: 'Edu AU VIC WA NT Hand', cursive; */
+    /* font-family: 'Catamaran', sans-serif; */
+    font-family: 'DM Serif Display', serif;
 }
 
 .summary {
     font-size: 27px;
     font-family: 'DM Serif Display', serif;
+    /* font-family: 'Edu AU VIC WA NT Hand', cursive;     */
     line-height: 1.5em;
 }
 
 .about {
     margin-bottom: 0;
-    font-family: 'News Cycle', sans-serif;
+    /* font-family: 'News Cycle', sans-serif; */
+    /* font-family: 'Edu AU VIC WA NT Hand', cursive; */
+    font-family: 'Catamaran', sans-serif;
     font-size: 16px;  
 }
 
@@ -194,9 +200,10 @@ footer {
 }
 
 #content {
-    font-family: "Jura";
+    /* font-family: "Jura"; */
+    font-family: 'Catamaran', sans-serif;
     font-optical-sizing: auto;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 @keyframes loop-anim {

@@ -22,13 +22,13 @@ const BlogIndex = ({ data, location }) => {
           </div>
           <div class="box e">
             <p className="about">
-              Creative technologist based in Toronto.
+              Creative technologist based in Brooklyn, NY.
               <br></br>
               <br></br>
-              I care about the infrastructure that runs the world. Both the networks that connect us digitally and the physical components that facilitate everyday life. I am guided by a desire to bridge the gaps between policy, innovation, and implementation in order to facilitate progress that meaningfully impacts the world.
+              I care about making life beautiful through the infrastructure that runs the world. Both the networks that connect us digitally and the physical components that facilitate everyday life. I am driven to interdisciplinary work that bridges the gaps between strategy, innovation, and implementation.
               <br></br>
               <br></br>
-              For three years I worked as a software engineer at Twitch. Distributing video across a global baremetal and cloud system spanning video delivery on the edge, backbone and caching systems, and traffic control management. In a past life I was the <a href="https://thefulcrum.ca/tag/marissa-phul/">news editor</a> at my university newspaper. My recent writing is <a href="/blog">here</a>.
+              Currently at Amazon focused on emerging ad technologies. Previously at Twitch working on a global baremetal and cloud system distributing video on the edge, backbone and caching systems, and traffic control management. In a past life I was the <a href="https://thefulcrum.ca/tag/marissa-phul/">news editor</a> at my university newspaper. In my free time I make things. I write about my projects <a href="/blog">here</a>.
               <br></br>
               <br></br>
               Feel free to <a href = "mailto:marissaphul@gmail.com">reach out</a>.

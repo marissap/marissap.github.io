@@ -57,6 +57,14 @@ module.exports = {
             name: `News Cycle`,
             file: `https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap`,
           },
+          {
+            name: `Edu AU VIC WA NT Hand`,
+            file: `https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap`,
+          },
+          {
+            name: `Catamaran`,
+            file: `https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap`,
+          },
         ],
       },
     },
