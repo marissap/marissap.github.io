@@ -19,6 +19,8 @@ const AllPosts = ({ data, location }) => {
             <header>
               <h3
                 style={{
+                  fontFamily: `Newsreader, sans-serif`,
+                  fontWeight: `200`,
                   marginBottom: rhythm(1 / 4),
                 }}
               >

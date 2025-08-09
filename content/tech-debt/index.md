@@ -1,7 +1,7 @@
 ---
 title: "On Not Being Afraid of Tech Debt"
 date: "2023-03-06"
-description: "Highly-scaled distributed systems are a sum of moving pieces. That's not to mean they're unstable, they should not be, but rather that production is a surprising environment and a resilient system can't let tech debt be dead weight."
+description: "Highly-scaled distributed systems are a sum of moving pieces. A resilient system can't let tech debt be dead weight."
 ---
 
 I've been working on performance optimizations for a microservice I own at work for some time now. I kind of fell into ownership by chance, one day when investigating an on-call issue I found some logs littered with spam from this service. It had been neglected and the consumer client was patchwork code, anything to just "keep the lights on." Large scale distributed systems are a sum of constantly moving pieces.

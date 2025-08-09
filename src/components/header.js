@@ -18,11 +18,10 @@ const Header = () => {
   `)
 
   header = (
-    <h1
+    <p
       style={{
-        marginTop: 0,
-      }}
-    >
+        marginTop: `20px`,
+      }}>
       <Link
         style={{
           boxShadow: `none`,
@@ -31,9 +30,9 @@ const Header = () => {
         }}
         to={`/`}
       >
-        MP
+        ⬸ Home
       </Link>
-    </h1>
+    </p>
   )
 
   return (

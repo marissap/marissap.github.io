@@ -1,7 +1,7 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
-import "@fontsource/dm-serif-display"
-import "@fontsource/archivo"
+import "@fontsource/newsreader"
+import "@fontsource/news-cycle"
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
@@ -14,11 +14,11 @@ Wordpress2016.overrideThemeStyles = () => {
       textDecoration: `solid`,
     },
     "h1,h2,h3,h4,h5,h6": {
-      fontFamily:`DM Serif Display, serif`,
+      fontFamily:`Newsreader, serif`,
       fontWeight: `500`,
     },
     "p,ul,li": {
-      fontFamily:`Archivo, sans-serif`,
+      fontFamily:`News Cycle, sans-serif`,
       marginBottom: `0`,
       // fontSize: `18px`,
     },

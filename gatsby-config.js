@@ -23,23 +23,18 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          // {
-          //   resolve: `gatsby-remark-images`,
-          //   options: {
-          //     maxWidth: 590,
-          //   },
-          // },
-          // {
-          //   resolve: `gatsby-remark-responsive-iframe`,
-          //   options: {
-          //     wrapperStyle: `margin-bottom: 1.0725rem`,
-          //   },
-          // },
           // `gatsby-remark-prismjs`,
           // `gatsby-remark-copy-linked-files`,
           // `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 530,
+            },
+          },
           `gatsby-remark-reading-time`,
           `gatsby-remark-embed-spotify`,
+          `gatsby-remark-responsive-iframe`,          
         ],
       },
     },
@@ -50,20 +45,12 @@ module.exports = {
         preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
         web: [
           {
-            name: `Jura`,
-            file: `https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap`,
-          },
-          {
             name: `News Cycle`,
             file: `https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap`,
           },
           {
-            name: `Edu AU VIC WA NT Hand`,
-            file: `https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap`,
-          },
-          {
-            name: `Catamaran`,
-            file: `https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap`,
+            name: `Newsreader`,            
+            file: `https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap`,
           },
         ],
       },
@@ -77,7 +64,7 @@ module.exports = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "assets",
-      "path": "./src/assets/"
+      "path": "./src/assets/",
     },
     __key: "assets"
   }]

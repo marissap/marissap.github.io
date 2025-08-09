@@ -30,7 +30,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <h2
             style={{
               marginTop: rhythm(1),
-              marginBottom: 0
+              marginBottom: 0,
+              fontFamily: `Newsreader, sans-serif`,
+              fontWeight: `200`,              
             }}
           >
             {post.frontmatter.title}
@@ -39,13 +41,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1),
+              marginBottom: rhythm(1),              
             }}
           >
             {post.frontmatter.date} - {readingTime}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <section style={{
+          fontFamily: `News Cycle, sans-serif`,
+          letterSpacing: `0.5px`,
+        }}dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),

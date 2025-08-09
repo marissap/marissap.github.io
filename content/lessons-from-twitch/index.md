@@ -1,6 +1,6 @@
 ---
 title: "Lessons Learned from Twitch"
-date: "2024-05-17"
+date: "2024-01-17"
 description: "A collection of non-engineering lessons learned from 3 years engineering at Twitch."
 ---
 
@@ -25,7 +25,7 @@ What really needs to be said. Nothing gets done in isolation. Everything is impr
 
 <hr>
 
-#### One of my proudest projects
+### Have Ideas
 When I returned as a fulltime employee within the first month I proposed a small project to fill a gap in our monitoring system. We had thousands of servers in datacenters across the globe and very often they'd be taken down for maintenance or upgrades or general datacenter changes. They'd come back into production running old code and we would never notice. This is called version drift. It became a huge issue where my team would be paged near constantly for servers erroring months later and we'd realize it was because this whole time they were not being updated and therefore the code had broke. So I scoped a project and presented the idea to the senior engineers on my team. Upon enthusiastic support, I architected both a push-based and pull-based solution, was pro pull-based, and led design discussions to iterate on the designs. Some people doubted the usefulness of this and never ever before did I think I was capable of logically and strategically advocating for my idea in the face of that. But I did, and very soon we reached consensus that the effort was worth the result. I implemented it and to this day it runs every Monday + is till used adhoc by operations workers when they get paged.
 
 > Have an idea, disagree + iterate + adapt, commit and get to work.
