@@ -1,5 +1,4 @@
 import React from "react"
-import { rhythm } from "../utils/typography"
 
 const Layout = ({ children }) => {
 
@@ -16,8 +15,8 @@ const Layout = ({ children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(40),
-        padding: `0px ${rhythm(1 / 4)} 40px`,
+        maxWidth: `60rem`,
+        padding: `0 0.75rem 40px`,
       }}
     >
       <main>{children}</main>
