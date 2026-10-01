@@ -211,7 +211,7 @@ export default function List() {
                         className="link-like"
                         onClick={() => openModal("videoDelivery")}
                         >Engineered</button>{' '}
-                    global video delivery at Twitch.
+                    global video infrastructure at Twitch.
                     </div>
                 </li>
 
