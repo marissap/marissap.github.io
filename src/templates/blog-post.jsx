@@ -46,7 +46,7 @@ const BlogPostTemplate = () => {
             {post.formattedDate} - {post.readingTime}
           </p>
         </header>
-        <section style={{
+        <section className="blog-post-content" style={{
           fontFamily: `Karla, sans-serif`,
           letterSpacing: `0.5px`,
         }} dangerouslySetInnerHTML={{ __html: post.html }} />

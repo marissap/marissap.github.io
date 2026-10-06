@@ -183,7 +183,7 @@ export default function List() {
                     <circle cx="12" cy="12" r="8" />
                 </svg>
                     <div className="item-text">
-                        Engineer and Tech Lead at Amazon{' '}
+                        Engineering at Amazon{' '}
                         <button
                         className="link-like"
                         onClick={() => openModal("ads")}
@@ -210,8 +210,8 @@ export default function List() {
                         <button
                         className="link-like"
                         onClick={() => openModal("videoDelivery")}
-                        >Engineered</button>{' '}
-                    global video infrastructure at Twitch.
+                        >Engineering</button>{' '}
+                    at Twitch.
                     </div>
                 </li>
 
@@ -225,7 +225,7 @@ export default function List() {
                 >
                     <circle cx="12" cy="12" r="8" />
                 </svg>
-                    <div className="item-text">Created, designed, photographed, and published an original zine at <a href="/zine/">Issues Mag</a> in Toronto.</div>
+                    <div className="item-text">Zine published at <a href="/zine/">Issues Mag</a> in Toronto.</div>
                 </li>
 
                 <li className="list-item">

@@ -7,10 +7,11 @@ const markdownFiles = import.meta.glob("../../content/*/index.md", {
   import: "default",
 });
 
-const imageFiles = import.meta.glob(
-  "../../content/**/*.{png,jpg,jpeg,gif,webp}",
-  { eager: true, query: "?url", import: "default" },
-);
+const imageFiles = import.meta.glob("../generated/post-images/*.webp", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
 
 export const posts = Object.entries(markdownFiles)
   .map(([path, rawContent]) => {
@@ -24,7 +25,8 @@ export const posts = Object.entries(markdownFiles)
     const html = marked
       .parse(content)
       .replace(/src="\.\/([^"]+)"/g, (match, filename) => {
-        const imagePath = imageFiles[`../../content/${slug}/${filename}`];
+        const imageName = filename.replace(/\.[^.]+$/, "");
+        const imagePath = imageFiles[`../generated/post-images/${slug}-${imageName}.webp`];
         return imagePath ? `src="${imagePath}"` : match;
       });
     const plainText = content
