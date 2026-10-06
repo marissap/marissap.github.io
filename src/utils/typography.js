@@ -14,11 +14,11 @@ Wordpress2016.overrideThemeStyles = () => {
       textDecoration: `solid`,
     },
     "h1,h2,h3,h4,h5,h6": {
-      fontFamily:`Newsreader, serif`,
+      fontFamily:`News Cycle, sans-serif`,
       fontWeight: `500`,
     },
     "p,ul,li": {
-      fontFamily:`News Cycle, sans-serif`,
+      fontFamily:`Newsreader, serif`,
       marginBottom: `0`,
       // fontSize: `18px`,
     },

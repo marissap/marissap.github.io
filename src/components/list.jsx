@@ -168,7 +168,7 @@ export default function List() {
             `}</style>
 
             <p className="list-paragraph top">
-                Technologist and <a href="/blog">writer</a>. Currently, <a href="cloudflare.com/startups">startups program lead</a> at Cloudflare and senior growth engineer.
+                Technologist and <a href="/blog">writer</a>. Senior Growth Engineer @ Cloudflare & Program Lead for <a href="cloudflare.com/startups">Startups</a>.
             </p>
 
             <ul className="list">
