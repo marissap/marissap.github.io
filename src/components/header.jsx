@@ -6,6 +6,7 @@ const Header = () => {
     <p
       style={{
         marginTop: `20px`,
+        marginLeft: `2rem`,
       }}>
       <Link
         style={{

@@ -9,7 +9,7 @@ const AllPosts = () => {
     <Layout>
       <Header/>
         {posts.map((post) => (
-          <article key={post.slug}>
+          <article className="blog-index-post" key={post.slug}>
             <header>
               <h3
                 style={{

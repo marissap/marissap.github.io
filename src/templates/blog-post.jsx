@@ -59,7 +59,7 @@ const BlogPostTemplate = () => {
         </footer>
       </article>
 
-      <nav>
+      <nav className="post-navigation">
         <ul
           style={{
             display: `flex`,
