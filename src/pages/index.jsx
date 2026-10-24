@@ -23,7 +23,7 @@ const BlogIndex = () => {
           </div>
           <nav className="social-links" aria-label="Social links">
             <a href="https://www.linkedin.com/in/marissaphul">LinkedIn</a>
-            <a href="https://github.com/marissap">GitHub</a>
+            {/* <a href="https://github.com/marissap">GitHub</a> */}
             <a href="https://www.instagram.com/os.maris/">Instagram</a>
             <a href="https://twitter.com/transienterrors">Twitter</a>
             <a href="mailto:marissaphul@gmail.com">Email</a>
