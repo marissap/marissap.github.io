@@ -15,7 +15,7 @@ const BlogIndex = () => {
             <div className="about list-container">
               <p className="list-paragraph">Currently, Program Lead for <a href="cloudflare.com/startups">Startups</a> & Senior Growth Engineer @ Cloudflare.</p>
               <p className="list-paragraph">Opinionated engineer with strong preferences for how systems are built thanks to working at Twitch on video distribution. This included delivery on the edge, internal protected replication, network traffic control management, network protocols, everything that happens to video between ingest in the origin and playback in the browser. And for time at Amazon and AWS handling signalling and communications for Alexa devices and crafting user experiences with the Ads team.</p>
-              <p className="list-paragraph"><a href="/blog">Writer</a> and researcher with published work across various <a href={GerminationZine} target="_blank">independent</a> publications, <a href="/zine/">zines</a>, residencies in Tokyo, and <a href="https://thefulcrum.ca/tag/marissa-phul/">editorial work</a>.</p>
+              <p className="list-paragraph"><a href="/blog">Writer</a> and researcher with published work across various <a href={GerminationZine} target="_blank">independent</a> publications, <a href="/zine/">zines</a>, residencies in Tokyo, and a tenure as News Editor at <a href="https://thefulcrum.ca/tag/marissa-phul/">The Fulcrum</a>.</p>
               <p className="list-paragraph">Community organizer at the Interference Archive in Brooklyn and <a href="https://mindsmatternyc.org/">Minds Matter NYC</a>.</p>
               <p className="list-paragraph">Also, I like to <a href="/lathe-lamps/">make</a> things.</p>
 
